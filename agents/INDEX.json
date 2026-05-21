@@ -933,6 +933,30 @@
       ],
       "complexity": "Medium",
       "category": "language"
+    },
+    "urban-gardener-agent": {
+      "file": "agents/urban-gardener-agent.md",
+      "short_description": "Urban and home gardening: seasonal planting plans, inventory management (pots, soil, tools), Excel schedules for sowing/transplanting/harvesting, and per-plant treatment guidance",
+      "triggers": [
+        "plan my garden",
+        "urban gardening",
+        "what to plant this season",
+        "garden inventory",
+        "planting schedule",
+        "harvest calendar",
+        "seed starting schedule",
+        "grow vegetables",
+        "garden planning",
+        "when to plant",
+        "when to harvest",
+        "garden treatment"
+      ],
+      "pairs_with": [
+        "python-general-engineer",
+        "data-engineer"
+      ],
+      "complexity": "Medium",
+      "category": "domain"
     }
   }
 }
