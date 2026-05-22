@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "generated": "2026-05-21T20:03:46Z",
+  "generated": "2026-05-21T23:41:01Z",
   "generated_by": "scripts/generate-skill-index.py",
   "skills": {
     "csuite": {
@@ -1391,6 +1391,7 @@
         "make agent"
       ],
       "category": "meta",
+      "force_route": true,
       "user_invocable": false,
       "pairs_with": [
         "skill-creator",
