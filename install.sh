@@ -15,7 +15,7 @@
 #   1. Verifies Python 3.10+ is available
 #   2. Creates ~/.claude directory if needed
 #   3. Links/copies agents, skills, hooks, commands, scripts to ~/.claude
-#   4. Mirrors skills, agents, and hooks to ~/.codex and ~/.gemini
+#   4. Mirrors skills, agents, hooks, and scripts to ~/.codex and ~/.gemini
 #   5. Sets up local overlay directory
 #   6. Configures hooks in settings.json
 #
