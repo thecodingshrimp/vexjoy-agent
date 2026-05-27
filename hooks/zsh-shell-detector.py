@@ -7,10 +7,10 @@ Detects Zsh shell users and injects the zsh-shell-config skill.
 Runs once at session start to provide Zsh-specific guidance.
 
 Detection Logic:
-- Primary: $SHELL contains "zsh"
-- Optional confirmation: ~/.zshrc or ~/.config/zsh/ exists
-  (presence of these files is supporting evidence, not required)
-- $SHELL is the authoritative signal — directory presence alone is insufficient
+- $SHELL contains "zsh" is the sole, authoritative signal.
+- Config directories (~/.zshrc, ~/.config/zsh/) are intentionally not
+  inspected — $SHELL alone determines detection, which avoids false
+  positives from leftover config after a user switches shells.
 
 Output Format:
 - [zsh-shell] Detected Zsh shell user
